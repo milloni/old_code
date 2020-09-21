@@ -1,0 +1,10 @@
+--- portscanner.py	2017-12-19 21:04:05.698741101 +0000
++++ portscanner2.py	2018-03-24 20:34:51.999699498 +0000
+@@ -14,6 +14,7 @@
+         ports_open[index] = False
+     if ports_open[index]:
+         sys.stdout.write("P")
++        # ABCD
+     else:
+         sys.stdout.write(".")
+     sys.stdout.flush()
