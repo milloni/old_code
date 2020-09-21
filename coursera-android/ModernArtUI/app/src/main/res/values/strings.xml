@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Modern Art UI</string>
+    <string name="more_information">More information</string>
+    <string name="error_webpage">Error displaying webpage</string>
+    <string name="want_to_learn">Want to learn more?</string>
+    <string name="dialog_yes">Visit moma.org</string>
+    <string name="dialog_no">Not now</string>
+    <string name="this_app_is_inpired">This app is inspired by works of modern art masters such as Piet Mondrian and Ben Nicholson. You can learn more on the official site of the Museum of Modern Art.</string>
+</resources>
