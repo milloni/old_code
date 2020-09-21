@@ -1,0 +1,7 @@
+common:
+    * tests
+bfcc:
+    * code it :)
+bfci:
+    * better code verification (on-the fly)
+

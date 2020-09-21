@@ -1,0 +1,6 @@
+Dependencies
+============
+
+This program should compile on any Unix system, although it has only been
+tested on Linux. For running tests, you will need a Bash shell.
+
