@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Passphrase trainer</title>
+<meta charset="utf-8">
+</head>
+<body>
+	<p><input type="password" id="pass"></p>
+	<p><button type="submit" id="subbutton" onclick="subEvent()">Go</button>
+	<button id="showPassButton" onclick="showPassEvent()">Show password</button></p>
+	<p id="message"></p>
+	<p id="passMessage"></p>
+
+	<script type="text/javascript">
+	var PASSPHRASE = "PassphraseGoesHere";
+	
+	function subEvent() {
+		var e = document.getElementById("message");
+		var guess = document.getElementById("pass").value;
+		if (guess == PASSPHRASE) {
+			e.innerHTML = "Correct!";
+		} else {
+			e.innerHTML = "Incorrect!";
+		}
+	}
+
+	function showPassEvent() {
+		var e = document.getElementById("passMessage");
+		var button = document.getElementById("showPassButton");
+		if (button.innerHTML == "Show password") {
+			e.innerHTML = PASSPHRASE;
+			button.innerHTML = "Hide password";
+		} else {
+			e.innerHTML = "";
+			button.innerHTML = "Show password";
+		}
+	}
+	</script>
+</body>
+</html>
